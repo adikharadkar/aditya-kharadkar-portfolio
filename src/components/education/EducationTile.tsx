@@ -18,7 +18,13 @@ export default function EducationTile({ education }: Props) {
         dark:bg-stone-900
       "
     >
-      <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+      <div
+        className="
+          flex flex-col gap-6
+          md:flex-row md:items-center
+          md:justify-between
+        "
+      >
         <div className="flex items-center gap-5">
           {/* Icon */}
           <div
