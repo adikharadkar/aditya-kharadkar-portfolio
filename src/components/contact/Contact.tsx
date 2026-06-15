@@ -144,7 +144,7 @@ export default function Contact() {
           "
         >
           <a
-            href="/demo.pdf"
+            href="/Aditya_Kharadkar_Frontend_Developer_4.7yrs.pdf"
             download
             className="
               inline-flex items-center justify-center gap-3

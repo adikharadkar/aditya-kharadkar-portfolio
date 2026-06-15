@@ -29,7 +29,7 @@ export default function Contact() {
       >
         <li>
           <a
-            href="public\Aditya_Kharadkar_Frontend_Developer_4.7yrs.pdf"
+            href="/Aditya_Kharadkar_Frontend_Developer_4.7yrs.pdf"
             download
             className="
             inline-flex items-center justify-center
