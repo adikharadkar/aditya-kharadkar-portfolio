@@ -33,7 +33,7 @@ export default function Contact() {
             md:text-7xl
           "
         >
-          Let&apos;s build something great together.
+          Let&apos;s connect.
         </h2>
 
         {/* Intro */}
@@ -45,8 +45,9 @@ export default function Contact() {
             dark:text-slate-300
           "
         >
-          I&apos;m currently open to new roles and freelance projects. Whether
-          you have a question or just want to say hi, my inbox is always open.
+          I&apos;m currently seeking new opportunities where I can contribute,
+          learn, and grow as a developer. If you think I'd be a good fit for
+          your team, I'd love to connect and discuss how I can add value.
         </p>
 
         {/* Contact Grid */}
