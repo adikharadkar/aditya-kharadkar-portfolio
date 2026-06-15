@@ -35,7 +35,7 @@ export default function Navbar() {
         "
         href="#top"
       >
-        My App
+        Aditya Kharadkar
       </a>
       {isMenuOpen && (
         <ul

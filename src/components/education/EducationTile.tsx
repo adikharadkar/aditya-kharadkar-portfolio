@@ -30,11 +30,7 @@ export default function EducationTile({ education }: Props) {
               dark:bg-stone-800
             "
           >
-            <PiGraduationCap
-              aria-hidden="true"
-              size={28}
-              className="text-red-500"
-            />
+            <PiGraduationCap size={28} className="text-red-500" />
           </div>
 
           {/* Degree Info */}

@@ -46,8 +46,9 @@ export default function Contact() {
           "
         >
           I&apos;m currently seeking new opportunities where I can contribute,
-          learn, and grow as a developer. If you think I'd be a good fit for
-          your team, I'd love to connect and discuss how I can add value.
+          learn, and grow as a developer. If you think I&apos;d be a good fit
+          for your team, I&apos;d love to connect and discuss how I can add
+          value.
         </p>
 
         {/* Contact Grid */}
@@ -63,6 +64,7 @@ export default function Contact() {
               href="mailto:adityakharadkar2706@gmail.com"
               className="
                 flex items-center gap-4
+                min-w-0 overflow-hidden
                 rounded-2xl border border-slate-200
                 bg-white px-6 py-5
                 transition-colors
@@ -73,11 +75,13 @@ export default function Contact() {
             >
               <FaRegEnvelope
                 size={22}
-                className="text-red-500"
+                className="text-red-500 flex-shrink-0"
                 aria-hidden="true"
               />
 
-              <span className="font-medium">adityakharadkar2706@gmail.com</span>
+              <span className="min-w-0 break-all font-medium text-slate-900 dark:text-white">
+                adityakharadkar2706@gmail.com
+              </span>
             </a>
           </li>
 
@@ -86,6 +90,7 @@ export default function Contact() {
               href="tel:+917028281198"
               className="
                 flex items-center gap-4
+                min-w-0 overflow-hidden
                 rounded-2xl border border-slate-200
                 bg-white px-6 py-5
                 transition-colors
@@ -94,25 +99,38 @@ export default function Contact() {
                 dark:bg-stone-800
               "
             >
-              <FiPhone size={22} className="text-red-500" aria-hidden="true" />
+              <FiPhone
+                size={22}
+                className="text-red-500 flex-shrink-0"
+                aria-hidden="true"
+              />
 
-              <span className="font-medium">+91 7028281198</span>
+              <span className="min-w-0 break-all font-medium text-slate-900 dark:text-white">
+                +91 7028281198
+              </span>
             </a>
           </li>
 
-          <li>
+          <li className="md:col-span-2">
             <div
               className="
                 flex items-center gap-4
+                min-w-0 overflow-hidden
                 rounded-2xl border border-slate-200
                 bg-white px-6 py-5
                 dark:border-stone-800
                 dark:bg-stone-800
               "
             >
-              <FiMapPin size={22} className="text-red-500" aria-hidden="true" />
+              <FiMapPin
+                size={22}
+                className="text-red-500 flex-shrink-0"
+                aria-hidden="true"
+              />
 
-              <span className="font-medium">Pune, Maharashtra, India</span>
+              <span className="min-w-0 break-words font-medium text-slate-900 dark:text-white">
+                Pune, Maharashtra, India
+              </span>
             </div>
           </li>
         </ul>
@@ -126,7 +144,7 @@ export default function Contact() {
           "
         >
           <a
-            href="public\Aditya_Kharadkar_Frontend_Developer_4.7yrs.pdf"
+            href="/demo.pdf"
             download
             className="
               inline-flex items-center justify-center gap-3
