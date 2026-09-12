@@ -61,7 +61,7 @@ export default function Contact() {
         >
           <li>
             <a
-              href="mailto:adityakharadkar2706@gmail.com"
+              href="mailto:adityakharadkar27@gmail.com"
               className="
                 flex items-center gap-4
                 min-w-0 overflow-hidden
@@ -80,7 +80,7 @@ export default function Contact() {
               />
 
               <span className="min-w-0 break-all font-medium text-slate-900 dark:text-white">
-                adityakharadkar2706@gmail.com
+                adityakharadkar27@gmail.com
               </span>
             </a>
           </li>
