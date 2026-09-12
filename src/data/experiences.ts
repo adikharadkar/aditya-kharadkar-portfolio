@@ -13,34 +13,38 @@ export const experiences = [
     location: "Pune, Maharashtra, India",
     period: "August 2021 – Present",
     achievements: [
-      `Architected and delivered scalable, high-performance UIs for both client-facing retail and internal 
-      enterprise applications using React.js and TypeScript, serving diverse user bases across multiple product 
-      lines.`,
-      `Engineered reusable component libraries and implemented feature-specific design patterns including 
-      brand-based search filters, compliance-driven shopping cart workflows, and order management tables - 
-      streamlining user journeys and reducing development time for new features.`,
-      `Optimized application performance through lazy loading, code splitting, and memoization, achieving up to 
-      40% reduction in initial load time and measurable improving Core Web Vitals Scores.`,
-      `Collaborated with backend teams to integrate RESTful APIs and contributed to Node.js middleware for 
-      mapping frontend API calls to backend endpoints, ensuring seamless data flow across the stack`,
-      `Partnered with UI/UX designers in design review cycles, bridging the gap between design intent and 
-      implementation to deliver pixel-perfect, visually consistent, and highly usable interfaces.`,
-      `Diagnosed and resolved critical frontend production incidents, minimizing downtime and maintaining a 
-      seamless cross-platform user experience under tight SLA constraints.`,
-      `Practiced Test-Driven Development (TDD) for critical features, improving reliability, reducing regressions, 
-      and maintaining high code quality across releases.`,
-      `Followed CI/CD best practices using Git with structured branching and merging strategies, supporting 
-      smooth, coordinated deployments in multi-team environments.`,
-      `Engaged directly with enterprise stakeholders to gather and translate business requirements into scalable 
-      frontend solutions aligned with organizational workflows and priorities.`,
-      `Leveraged AI-assisted development tools including Github Copilot for accelerated prototyping, intelligent 
-      code suggestions, and enhanced code quality - improving overall team delivery velocity.`,
-      `Containerized React and Node.js applications using Docker, creating Dockerfiles and Docker Compose 
-      configurations while leveraging container networking, volumes, and environment variables to establish 
-      consistent and reproducible development environments.`,
-      `Mentored junior developers, conducting code reviews and establishing frontend coding standards and best 
-      practices across the team.`,
-    ],
+  `Architected and delivered scalable, high-performance UIs for client-facing retail and internal 
+  enterprise applications using React.js and TypeScript, serving diverse user bases across multiple 
+  product lines.`,
+
+  `Designed and developed custom Spotify Backstage plugins from the ground up using React, TypeScript, 
+  and Node.js, contributing to an internal developer platform that enables streamlined self-service 
+  engineering workflows.`,
+
+  `Designed and implemented an end-to-end template creation workflow, including dynamic template discovery, 
+  backend API integration, template selection, and schema-driven multi-step forms that are automatically 
+  generated based on API responses.`,
+
+  `Built the complete template provisioning and approval workflow, enabling users to submit dynamically 
+  collected data through APIs to create new templates and initiate administrator approval, improving the 
+  efficiency and standardization of internal development processes.`,
+
+  `Engineered reusable React components and UI patterns, integrated RESTful APIs and Node.js middleware, 
+  and developed comprehensive unit tests for reusable components and critical UI functionality to improve 
+  reliability and reduce regressions.`,
+
+  `Established and maintained CI/CD pipelines using GitHub Actions and followed Git-based development 
+  practices to automate build, test, and deployment workflows, supporting consistent and reliable releases 
+  across environments.`,
+
+  `Optimized application performance through lazy loading, code splitting, and memoization, achieving up to 
+  40% reduction in initial load time and measurable improvements in Core Web Vitals, while collaborating 
+  with UI/UX designers and enterprise stakeholders to deliver scalable, production-ready solutions.`,
+
+  `Diagnosed and resolved critical frontend production issues, participated in code reviews, and mentored 
+  junior developers by establishing frontend coding standards and best practices, helping maintain code 
+  quality and reliable delivery across the team.`,
+],
     tech: [
       "React",
       "JavaScript",
