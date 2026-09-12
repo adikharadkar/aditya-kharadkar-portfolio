@@ -8,11 +8,8 @@ export default function ProfileSummary() {
             max-w-2xl
           "
       >
-        I’m a Frontend Developer passionate about building modern web
-        experiences with React and TypeScript. Over the past 4+ years, I’ve
-        worked on products ranging from customer-facing applications to
-        enterprise platforms, focusing on performance, accessibility, and great
-        user experience.
+        I’m a Frontend Engineer passionate about building scalable, high-performance digital experiences with React, TypeScript, and Node.js. With 5 years of experience, I’ve worked across customer-facing applications and internal developer platforms, including building custom Spotify Backstage plugins and end-to-end workflows. I enjoy turning complex requirements into intuitive, accessible interfaces while focusing on performance, reusable architecture, and reliable engineering practices.
+
       </p>
       <div
         className="
